@@ -50,6 +50,7 @@ body {
   font-size: 16px;
   line-height: 1.8;
   color: var(--primary-color );
+  background: var(--dark-color);
 
 }
 
@@ -75,11 +76,13 @@ h3{
 
 header.container {
   background: var(--dark-color);
-  height: 300px;
   text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+}
+
+header.container .about-des{
+  background:var(--dark-color);
+  padding: 100px 0px 100px 0px
 }
 
 /* Nav */
@@ -193,13 +196,19 @@ section.blog{
 
 /* Heading design */
 .heading-design{
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 34px;
+  justify-content: center; */
+ 
   border: 1px solid;
   border-left: 0px;
   border-right: 0px;
+  background: var(--dark-color);
+}
+
+.heading-design .about-des{
+  padding: 34px;
+  background: var(--dark-color);
 }
 .brose-More-design{
   display: flex;
@@ -211,6 +220,7 @@ section.blog{
 
 }
 .heading-design h2{
+  text-align: center;
   font-size: var(--secondary-font-size);
   font-weight: 400;
   letter-spacing: 15px;
@@ -218,6 +228,7 @@ section.blog{
 
 .search{
   width: 1040px;
+  background: var(--dark-color);
     margin: 0 auto;
 }
 
@@ -432,4 +443,6 @@ footer h3{
   color: var(--dark-color);
   font-weight: 400;
 }
+
+
 
