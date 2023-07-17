@@ -339,6 +339,50 @@ section.blog{
 hr{
   background: #61C688;
 }
+
+/* Contact form */
+
+.contact-form form input{
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #61C688;
+  padding: 30px;
+  color: #61C688;
+  font-family: var(--body-font);
+}
+.contact-form form input::placeholder{
+  color: #61C688;
+  background: transparent;
+}
+.contact-form form input::focus{
+ border: 0px;
+}
+.contact-form textarea::placeholder{
+  color: #61C688;
+  background: transparent;
+}
+.contact-form textarea{
+  width: 100%;
+  background: transparent;
+  border: none;
+  color: var(--primary-color);
+  border-bottom: 1px solid #61C688;
+  padding: 30px;
+  font-family: var(--body-font);
+}
+.contact{
+  background: var(--dark-color);
+}
+.contact-form{
+  width: 1040px;
+  margin: 0 auto;
+  padding: 60px 0px;
+}
+
+.contact-form form button{
+  width: 100%;
+}
 /* Footer */
 
 footer {
