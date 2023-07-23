@@ -444,5 +444,12 @@ footer h3{
   font-weight: 400;
 }
 
+.code_content p{
+  background-color: #292929;
+  padding: 24px;
+  color: #3D7051;
+  margin-top: 20px;
+}
+
 
 
